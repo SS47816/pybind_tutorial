@@ -2,7 +2,7 @@
 cfg['compiler_args'] = ['-std=c++17']
 cfg['include_dirs'] = ['../eigen']
 setup_pybind11(cfg)
-%>
+%>;
 
 #include <pybind11/pybind11.h>
 #include <pybind11/eigen.h>
